@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" class="logo" src="./assets/logo.png">
-    <HelloWorld :imgList="imageList"/>
+    <HelloWorld :imgList="imgList"/>
   </div>
 </template>
 
@@ -180,7 +180,7 @@ export default {
   margin-top: 60px;
 }
 .logo {
-  animation: scale 2s steps(20) backwards infinite;
+  animation: scale 2s backwards infinite;
 }
 @keyframes scale {
   form {
