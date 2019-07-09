@@ -157,6 +157,7 @@ export default {
         'https://cdn.pixabay.com/photo/2019/06/29/16/28/mouse-4306520__340.jpg',
       ],
       
+
     }
   },
   components: {
@@ -180,7 +181,7 @@ export default {
   margin-top: 60px;
 }
 .logo {
-  animation: scale 2s backwards infinite;
+  animation: scale 2s steps(20) backwards infinite;
 }
 @keyframes scale {
   form {
